@@ -1,0 +1,11 @@
+NAME: При выборе курса {TEST DATA} открывается курс {TEST DATA}
+TEST DATA: {Автоматизация тестирования 13 поток, Открытые занятия по средам}
+PRIORITY: MEDIUM
+PRECONDITIONS:
+               - Открыт браузер;
+               - Находимся на стартовой странице https://qa.guru/teach/control/stream/index;
+4 STEPS:
+        - В поле поиска ввести текст {TEST DATA}
+        - Нажать кнопку "Найти"!
+5 EXPECTED RESULT:
+        - В результатах отображается текст {TEST DATA}
